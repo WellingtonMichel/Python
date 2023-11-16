@@ -2,4 +2,4 @@
 
 import math
 num = float(input('Digite um número real: '))
-print('O número {} tem a sua parte inteira {}'.format(num, math.floor(num)))
+print('O número {} tem a sua parte inteira {}'.format(num, math.trunc(num)))
